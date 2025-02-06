@@ -16,8 +16,8 @@ jobs:
       with:
         python-version: '3.9'
         architecture: 'x64'
-      retry: 3
-      delay: 20
+        retry: 3
+        delay: 20
     - name: Install Jupyter
       run: |
         pip install jupyter==1.0.0
