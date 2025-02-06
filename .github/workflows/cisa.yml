@@ -17,7 +17,7 @@ jobs:
         architecture: 'x64'
     - name: Install Jupyter
       run: |
-        pip install jupyter
+        pip install jupyter==1.0.0
         pip install -r requirements.txt 
     - name: Run Notebook
       env:
